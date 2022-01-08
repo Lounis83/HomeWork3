@@ -1,0 +1,17 @@
+CREATE TABLE `new_schema`.`new_table2` (
+  `id` INT NOT NULL,
+  `FirstName` VARCHAR(45) NULL,
+  `LastName` VARCHAR(45) NULL,
+  `gpa` DOUBLE NULL,
+  `grade` CHAR(1) NULL,
+  PRIMARY KEY (`id`));
+INSERT INTO `new_schema`.`new_table2` (`id`, `FirstName`, `LastName`, `gpa`, `grade`) VALUES ('01', 'Akli', 'Lounis', '4.3', 'A');
+INSERT INTO `new_schema`.`new_table2` (`id`, `FirstName`, `LastName`, `gpa`, `grade`) VALUES ('02', 'Zerrouk', 'Ahmed', '4.5', 'A');
+INSERT INTO `new_schema`.`new_table2` (`id`, `FirstName`, `LastName`, `gpa`, `grade`) VALUES ('03', 'John', 'Smith', '3', 'B');
+INSERT INTO `new_schema`.`new_table2` (`id`, `FirstName`, `LastName`, `gpa`, `grade`) VALUES ('04', 'Johnson', 'George', '3.5', 'B');
+INSERT INTO `new_schema`.`new_table2` (`id`, `FirstName`, `LastName`, `gpa`, `grade`) VALUES ('05', 'Messi', 'Leo', '2', 'C');
+INSERT INTO `new_schema`.`new_table2` (`id`, `FirstName`, `LastName`, `gpa`, `grade`) VALUES ('06', 'Smith', 'Alane', '2.5', 'C');
+INSERT INTO `new_schema`.`new_table2` (`id`, `FirstName`, `LastName`, `gpa`, `grade`) VALUES ('07', 'Adam', 'John', '4.6', 'A');
+INSERT INTO `new_schema`.`new_table2` (`id`, `FirstName`, `LastName`, `gpa`, `grade`) VALUES ('08', 'Arnold', 'Alex', '4.2', 'A');
+INSERT INTO `new_schema`.`new_table2` (`id`, `FirstName`, `LastName`, `gpa`, `grade`) VALUES ('09', 'Jonny', 'Depp', '5', 'A');
+INSERT INTO `new_schema`.`new_table2` (`id`, `FirstName`, `LastName`, `gpa`, `grade`) VALUES ('10', 'Alicia', 'Muller', '1', 'D');
